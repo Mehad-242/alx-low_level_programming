@@ -21,8 +21,11 @@ int main(void)
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(l + '0');
-					putchar(',');
-					putchar(' ');
+					if (i + j + l != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
