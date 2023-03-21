@@ -24,9 +24,12 @@ int main(void)
 					putchar(' ');
 					putchar(l + '0');
 					putchar(m + '0');
+					if (i && l && m == 9 && j == 8)
+					{
+						continue;
+					}
 					putchar(',');
 					putchar(' ');
-					
 				}
 			}
 		}
