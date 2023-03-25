@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * moer_numbers - print more numbers
+ * moer_numbers - print 10 times the  numbers since 0 up to 14
+ * Return: 10 times of the number since 0 up to 14
  */
 
 void more_numbers(void)
