@@ -12,10 +12,10 @@
 
 int main(int argc, char **argv)
 {
-	char *p = (char*)main;
+	char *p = (char *)main;
 	int n;
 
-	if (argc !=2)
+	if (argc != 2)
 		printf("Error\n"), exit(1);
 
 	n = atoi(argv[1]);
