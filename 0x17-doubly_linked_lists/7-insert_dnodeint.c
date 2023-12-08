@@ -7,7 +7,7 @@
  * @n: The integer for the new node to contain
  *
  * Return: if the function fails - NULL
- * 	otherwise - the address of the new node
+ * otherwise - the address of the new node
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
