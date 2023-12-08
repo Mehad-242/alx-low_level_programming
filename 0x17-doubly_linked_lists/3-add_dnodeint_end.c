@@ -2,8 +2,8 @@
 
 /**
  * add_dnodeint_end - adds a new node at the end
- * @head:
- * @n:
+ * @head: address of pointer to current head node
+ * @n: int field of new node
  *
  * Return: address of new node or NULL
  */
