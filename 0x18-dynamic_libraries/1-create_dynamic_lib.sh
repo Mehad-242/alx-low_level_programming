@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc -Wall -Werror -pedantic -c -fPTC *.c
+gcc -Wall -Werror -pedantic -c -fPIC *.c
 gcc -shared -o liball.os *.o
 export LD_LTBRARY_PATH=.:$LD_LIBRARY_PATH
