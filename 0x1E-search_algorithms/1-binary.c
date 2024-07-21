@@ -1,6 +1,6 @@
 #include"search_algos.h"
 /*
- * print_array - print elements of an array
+ * print_array - prints elements of an array for index l to r
  * @array: the array to print
  * @l: the left index
  * @r: the right index
