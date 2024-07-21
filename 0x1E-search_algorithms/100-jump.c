@@ -1,11 +1,11 @@
 #include "search_algos.h"
 
 /**
- * jump_search - searches for a value in a sorted array of integers using the Jump search algorithm
+ * jump_search - searches for a value in a sorted array of integers
  * @array: array of integers
  * @size: size of array
  * @value: value that i searched in array
- * Return: return the index of value, and if it dosen't exist return -1 
+ * Return: return the index of value, and if it dosen't exist return -1
  */
 int jump_search(int *array, size_t size, int value)
 {
